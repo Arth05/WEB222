@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arth Indravadanbhai Patel - Supercar Showcase</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bullframe.css" />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        background-image: url('/b1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+      .card {
+        background: white;
+        width: 300px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .card-image {
+        width: 100%; 
+        height: auto; 
+        border-top-left-radius: 8px; 
+        border-top-right-radius: 8px;
+      }
+
+      .card-body {
+        padding: 15px;
+      }
+      .card-title {
+        margin: 0;
+        color: #333;
+        font-weight: bold;
+      }
+      .card-text {
+        color: #666;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .card-price {
+        color: #333;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      nav a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Supercar Showcase</h1>
+      <nav>
+        <a href="about.html">About Us</a> 
+        <a href="honesty.html">Honesty</a> 
+        <a href="product_register_with_css.html">Product Registration</a> 
+        <a href="reflection_with_css.html">Reflection</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      
+      <div class="card">
+        <img src="/2016-Ferrari-488-GTB-GREY-3671-4.jpg" alt="Ferrari 488 GTB" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Ferrari 488 GTB</h3>
+          <p class="card-text">
+            A masterpiece of Italian engineering with exceptional speed and handling.
+          </p>
+          <p class="card-price">Price: $280,000</p>
+        </div>
+      </div>
+      
+
+      <div class="card">
+        <img src="/mclaren720s.avif" alt="McLaren 720s" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">McLaren 720S</h3>
+          <p class="card-text">
+            The McLaren 720S boasts a 4.0-liter twin-turbo V8 engine, combining cutting-edge
+            technology with breathtaking design.
+          </p>
+          <p class="card-price">Price: $300,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/lamborghini.jpg" alt="Lamborghini Aventador SVJ" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Lamborghini Aventador SVJ</h3>
+          <p class="card-text">
+            Known for its extraordinary performance, the Aventador SVJ is powered by a 6.5-liter V12
+            engine, delivering thrilling acceleration and speed.
+          </p>
+          <p class="card-price">Price: $500,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/911.jpg" alt="Porsche 911 Turbo S" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Porsche 911 Turbo S</h3>
+          <p class="card-text">
+            A symbol of luxury and performance, the 911 Turbo S offers a perfect blend of speed,
+            precision, and advanced technology.
+          </p>
+          <p class="card-price">Price: $220,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/bugatti.jpg" alt="Bugatti Chiron" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Bugatti Chiron</h3>
+          <p class="card-text">
+            The epitome of supercars, the Bugatti Chiron is equipped with a massive 8.0-liter
+            quad-turbocharged W16 engine, setting new standards in performance.
+          </p>
+          <p class="card-price">Price: $3,000,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/dbs.jpg" alt="Aston Martin DBS Superleggera" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Aston Martin DBS Superleggera</h3>
+          <p class="card-text">
+            A grand tourer with a blend of elegance and performance, the DBS Superleggera features a
+            5.2-liter twin-turbo V12 engine.
+          </p>
+          <p class="card-price">Price: $320,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="/AUDI_R8-V10-performance-RWD-Spyder-2021_main.jpg"
+          alt="Audi R8 V10 Performance"
+          class="card-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Audi R8 V10 Performance</h3>
+          <p class="card-text">
+            The Audi R8 V10 Performance stands out with its striking design and a 5.2-liter V10
+            engine, offering a remarkable driving experience.
+          </p>
+          <p class="card-price">Price: $200,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/mercedes-amg-gt-r-by-domanig.jpg" alt="Mercedes-AMG GT R" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Mercedes-AMG GT R</h3>
+          <p class="card-text">
+            A high-performance sports car, the AMG GT R comes with a 4.0-liter twin-turbo V8 engine,
+            known for its agility and speed.
+          </p>
+          <p class="card-price">Price: $160,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/jesko.jpg" alt="Koenigsegg Jesko" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Koenigsegg Jesko</h3>
+          <p class="card-text">
+            The Jesko is a hypercar with a 5.0-liter twin-turbo V8 engine, designed for both high
+            performance and luxury.
+          </p>
+          <p class="card-price">Price: $3,000,000</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/pagani.jpg" alt="Pagani Huayra" class="card-image" />
+        <div class="card-body">
+          <h3 class="card-title">Pagani Huayra</h3>
+          <p class="card-text">
+            A work of art on wheels, the Pagani Huayra is powered by a 6.0-liter twin-turbo V12
+            engine, offering an exquisite blend of speed and style.
+          </p>
+          <p class="card-price">Price: $2,500,000</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Supercar Showcase</p>
+    </footer>
+  </body>
+</html>
